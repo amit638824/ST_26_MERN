@@ -1,0 +1,212 @@
+================================================================================
+                    JAVASCRIPT PRACTICE TASKS — CODING QUESTIONS
+================================================================================
+
+INSTRUCTIONS
+------------
+
+Assignment for All Students (Mandatory)
+---------------------------------------
+1. Prepare clear and neat handwritten notes.
+2. No excuses — whether you attended the first class or not, everyone must
+   complete the notes.
+3. Cover all topics discussed in class.
+4. Be ready for questions. Any topic may be asked to any student in the next class.
+5. Complete the assignment before the next class.
+6. Bring your handwritten notes and programs for checking.
+7. If anything is missing from your notes, complete Day 1 and Day 2 topics in
+   your notes.
+
+Note: Incomplete work or failure to answer questions will be considered
+non-compliance with class requirements. 
+
+================================================================================
+TOPIC 1: BASICS — console, alert, prompt, confirm
+================================================================================
+
+Task 01
+Write a program to display "Hello, JavaScript!" using console.log().
+
+Task 02
+Write a program to display "Welcome to JavaScript" using alert().
+
+Task 03
+Write a program that asks the user's name using prompt() and displays it using console.log().
+(No number conversion needed — name is text.)
+
+Task 04
+Write a program that asks the user's city using prompt() and displays it using document.write().
+(No number conversion needed — city is text.)
+
+Task 05
+Write a program that uses confirm("Do you want to continue?") and prints the returned value.
+(Extra — returns true or false, no conversion needed.)
+
+
+================================================================================
+TOPIC 2: CONDITIONALS — if, if...else, if...else if
+================================================================================
+
+Task 06
+Write a program using num = 15. Check whether it is positive using if.
+
+Task 07
+Write a program using num = 24. Check whether it is even or odd using if...else.
+
+Task 08
+Write a program using num = 150. Check whether it is greater than 100.
+
+Task 09
+Write a program using age = 20. Check whether the person is eligible to vote (age >= 18).
+
+Task 10
+Write a program using marks = 55. Check whether the student passed or failed
+(passing marks = 40).
+
+Task 11
+Write a program using num1 = 30 and num2 = 45. Find the larger number using if...else.
+
+Task 12
+Write a program using a = 12, b = 25, and c = 18. Find the largest of the three
+numbers using if...else if.
+
+Task 13
+Write a program using num = 35. Check whether it is divisible by 5.
+
+Task 14
+Write a program using num = 30. Check whether it is divisible by both 3 and 5.
+
+Task 15
+Write a program using marks = 85. Assign a grade based on marks:
+  - 90–100  →  A
+  - 80–89   →  B
+  - 70–79   →  C
+  - Below 70  →  Fail
+
+Task 27
+Write a program using num = -5. Check whether it is negative, positive, or zero.
+
+
+================================================================================
+TOPIC 3: ASSIGNMENT OPERATORS — +=, -=, *=, /=, %=
+================================================================================
+
+Task 16
+Create a variable x = 10. Use the += assignment operator to add 5 and display the result.
+
+Task 17
+Create a variable x = 20. Use the -= assignment operator to subtract 8 and display the result.
+
+Task 18
+Create a variable x = 6. Use the *= assignment operator to multiply by 4 and display the result.
+
+Task 19
+Create a variable x = 100. Use the /= assignment operator to divide by 5 and display the result.
+
+Task 20
+Create a variable x = 17. Use the %= assignment operator with 5 and display the result.
+
+
+================================================================================
+TOPIC 4: COMPARISON OPERATORS — ==, ===, !=
+================================================================================
+
+Task 21
+Write a program using num1 = 10 and num2 = 10. Compare them using ==.
+
+Task 22
+Write a program using a = 5 and b = "5". Compare them using === and display whether
+they are equal.
+
+Task 23
+Write a program using num1 = 8 and num2 = 12. Check whether they are not equal using !=.
+
+
+================================================================================
+TOPIC 5: MINI PROGRAMS (PREDEFINED VALUES)
+================================================================================
+
+Task 24
+Write a program using num1 = 25 and num2 = 17. Display their sum.
+
+Task 25
+Write a program using num1 = 42 and num2 = 38. Display the larger number.
+
+Task 26
+Write a simple calculator using num1 = 20, num2 = 4, and choice = "+".
+Perform addition, subtraction, multiplication, or division based on choice using if...else if.
+
+Task 28
+Write a program using wantToExit = true. Display its value using console.log().
+
+Task 29
+Write a program using name = "Sumit", age = 22, and city = "Delhi".
+Display all the information using document.write().
+
+
+================================================================================
+TOPIC 6: SWITCH STATEMENT
+================================================================================
+
+Task 30 — Day of the Week
+  - Use a predefined variable dayNumber = 4.
+  - Use a switch statement to display the corresponding day of the week.
+  - Example: 1 → Monday, 2 → Tuesday, ..., 7 → Sunday.
+
+Task 31 — Simple Calculator
+  - Use predefined values num1 = 50, num2 = 10, and operator = "-".
+  - Use a switch statement to perform the selected operation and display the result.
+
+Task 32 — Month Name
+  - Use a predefined variable monthNumber = 8.
+  - Use a switch statement to display the corresponding month name.
+  - Example: 1 → January, 12 → December.
+
+Task 33 — Grade Message
+  - Ask the user for a grade (A, B, C, D, or F) using prompt().
+  - Use a switch statement to display an appropriate message.
+  - Example:
+      A → Excellent
+      B → Very Good
+      C → Good
+      D → Needs Improvement
+      F → Fail
+  (No number conversion needed — grade is text.)
+
+Task 34 — Traffic Light
+  - Ask the user for a traffic light color (red, yellow, or green) using prompt().
+  - Use a switch statement to display the correct action.
+  - Example:
+      red    → Stop
+      yellow → Wait
+      green  → Go
+      Any other input → Invalid Color
+  (No number conversion needed — color is text.)
+
+
+================================================================================
+TOPIC 7: LOOPS — for, while, do...while
+================================================================================
+
+Task 35
+Write a program to find the sum of numbers from 1 to 100 using a for loop.
+
+Task 36
+Write a program to print all even numbers from 1 to 50 using a for loop.
+
+Task 37
+Write a program to print numbers from 10 to 1 using a while loop.
+
+Task 38
+Write a program to print the multiplication table of num = 7 using a while loop.
+
+Task 39
+Write a program to print even numbers from 2 to 20 using a do...while loop.
+
+Task 40
+Write a program to display the multiplication table of num = 9 using a do...while loop.
+
+
+================================================================================
+                              TOTAL TASKS: 40
+================================================================================
