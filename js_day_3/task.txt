@@ -178,7 +178,7 @@ Task 31
 Write a function without parameters that prints "Hello".
 
 Task 32
-Write a function with one parameter. Pass name = "Amit" and print the name.
+Write a function with one parameter. Pass name = "Rohan" and print the name.
 
 Task 33
 Write a function with two parameters using num1 = 12 and num2 = 8. Add them and print the result.

@@ -1,0 +1,280 @@
+================================================================================
+                    JAVASCRIPT PRACTICE TASKS — CODING QUESTIONS
+                         DAY 4: ARRAY METHODS
+================================================================================
+
+INSTRUCTIONS
+------------
+
+Assignment for All Students (Mandatory)
+---------------------------------------
+1. Prepare clear and neat handwritten notes.
+2. No excuses — whether you attended the first class or not, everyone must
+   complete the notes.
+3. Cover all topics discussed in class.
+4. Be ready for questions. Any topic may be asked to any student in the next class.
+5. Complete the assignment before the next class.
+6. Bring your handwritten notes and programs for checking.
+7. If anything is missing from your notes, complete Day 1, Day 2, and Day 3 topics in
+   your notes.
+
+Note: Incomplete work or failure to answer questions will be considered
+non-compliance with class requirements.
+
+
+================================================================================
+TOPIC 1: ARRAY map() METHOD — Transform Every Element
+================================================================================
+
+Task 01
+Create an array nums = [1, 2, 3, 4, 5]. Use map() to multiply every element by 2
+and print the new array.
+
+Task 02
+Create an array nums = [5, 10, 15]. Use map() to add 10 to every number and print
+the new array.
+
+Task 03
+Create an array names = ["rohan", "rahul", "sneha"]. Use map() to convert every name
+into uppercase and print the new array.
+
+Task 04
+Create an array nums = [2, 3, 4]. Use map() to calculate the square of every number
+and print the new array.
+(Hint: 2 × 2 = 4)
+
+Task 05
+Create an array nums = [2, 3, 4]. Use map() to calculate the cube of every number
+and print the new array.
+(Hint: 2 × 2 × 2 = 8)
+
+Task 06
+Create an array prices = [100, 200, 300]. Use map() to convert every price into a
+string with the ₹ symbol and print the new array.
+(Example: "₹100")
+
+Task 07
+Create an array words = ["apple", "mango", "kiwi"]. Use map() to find the length of
+every string and print the new array.
+
+Task 08
+Create an array names = ["HELLO", "WORLD"]. Use map() to convert every string into
+lowercase and print the new array.
+
+Task 09
+Create an array names = ["Rohan", "Rahul"]. Use map() to add the word "Student -"
+before every name and print the new array.
+(Example: "Student - Rohan")
+
+Task 10
+Create an array nums = [10, 20, 30]. Use map() to multiply every element by its index
+and print the new array.
+(Hint: index starts from 0)
+
+
+================================================================================
+TOPIC 2: ARRAY filter() METHOD — Select Elements by Condition
+================================================================================
+
+Task 11
+Create an array nums = [1, 2, 3, 4, 5, 6, 7, 8]. Use filter() to print only even
+numbers.
+
+Task 12
+Create an array nums = [1, 2, 3, 4, 5, 6, 7, 8]. Use filter() to print only odd
+numbers.
+
+Task 13
+Create an array nums = [10, 30, 55, 70, 90]. Use filter() to print only numbers
+greater than 50.
+
+Task 14
+Create an array nums = [5, 10, 15, 25, 30]. Use filter() to print only numbers less
+than 20.
+
+Task 15
+Create an array nums = [-5, 10, -2, 8]. Use filter() to print only positive numbers.
+
+Task 16
+Create an array nums = [-5, 10, -2, 8]. Use filter() to remove negative numbers and
+print the new array.
+
+Task 17
+Create an array names = ["rohan", "rahul", "sneha", "om"]. Use filter() to print only
+names whose length is greater than 5.
+
+Task 18
+Create an array nums = [10, 15, 20, 25, 33]. Use filter() to print only numbers
+divisible by 5.
+
+Task 19
+Create an array nums = [1, 2, 2, 3, 3, 4]. Use filter() to remove duplicate values
+and print the new array.
+(Hint: use indexOf())
+
+Task 20
+Create an array marks = [20, 35, 40, 50, 60]. Use filter() to print only marks greater
+than or equal to 35.
+
+
+================================================================================
+TOPIC 3: push() & pop() — Add and Remove from End
+================================================================================
+
+Task 21
+Create an array fruits = ["apple", "banana"]. Use push() to add "mango" at the end
+and print the updated array.
+
+Task 22
+Create an array colors = ["red", "blue"]. Use push() to add "green", "yellow", and
+"orange" and print the updated array.
+
+Task 23
+Create an array subjects = ["Math", "English"]. Use push() to add your favorite subject
+and print the updated array.
+
+Task 24
+Create an array nums = [1, 2, 3]. Use push() to add 4 and print the updated array.
+
+Task 25
+Create an array nums = [1, 2, 3, 4, 5]. Use pop() to remove the last element and print
+the updated array.
+
+Task 26
+Create an array nums = [1, 2, 3, 4, 5]. Use pop() twice and print the remaining array.
+
+Task 27
+Create an array nums = [10, 20, 30]. Use pop() and store the removed value in a variable.
+Print the removed value and the updated array.
+
+Task 28
+Create an array colors = ["red", "green", "blue"]. Use pop() to remove the last color
+and print the updated array.
+
+
+================================================================================
+TOPIC 4: forEach() — Loop Through Array
+================================================================================
+
+Task 29
+Create an array nums = [1, 2, 3, 4, 5]. Use forEach() to print every element.
+
+Task 30
+Create an array names = ["Rohan", "Rahul", "Sneha"]. Use forEach() to print each name
+with its index.
+(Example: 0: Rohan)
+
+Task 31
+Create an array nums = [10, 20, 30]. Use forEach() to calculate the sum of all numbers
+and print the total.
+
+Task 32
+Create an array nums = [1, 2, 3, 4, 5, 6]. Use forEach() to print only even numbers.
+
+
+================================================================================
+TOPIC 5: reduce() — Combine All Elements into One Value
+================================================================================
+
+Task 33
+Create an array nums = [1, 2, 3, 4, 5]. Use reduce() to find the sum of all elements
+and print the result.
+
+Task 34
+Create an array nums = [2, 3, 4]. Use reduce() to find the product of all elements
+and print the result.
+
+Task 35
+Create an array nums = [5, 10, 15, 20]. Use reduce() to find the largest number and
+print the result.
+
+Task 36
+Create an array nums = [5, 10, 15, 20]. Use reduce() to find the smallest number and
+print the result.
+
+
+================================================================================
+TOPIC 6: slice() — Copy Part of an Array
+================================================================================
+
+Task 37
+Create an array nums = [10, 20, 30, 40, 50]. Use slice() to copy the first three
+elements and print the result.
+
+Task 38
+Create an array nums = [10, 20, 30, 40, 50]. Use slice() to copy the last two elements
+and print the result.
+
+Task 39
+Create an array nums = [10, 20, 30, 40, 50, 60]. Use slice() to extract elements from
+index 2 to 5 and print the result.
+
+Task 40
+Create an array nums = [1, 2, 3, 4, 5]. Use slice() to copy elements without changing
+the original array. Print both the original array and the copied array.
+
+
+================================================================================
+TOPIC 7: splice() — Add or Remove Elements
+================================================================================
+
+Task 41
+Create an array fruits = ["apple", "banana", "mango", "grape"]. Use splice() to remove
+one element from index 2 and print the updated array.
+
+Task 42
+Create an array nums = [1, 2, 3, 4, 5, 6]. Use splice() to remove two elements starting
+from index 3 and print the updated array.
+
+Task 43
+Create an array fruits = ["apple", "banana"]. Use splice() to add "mango" and "grape"
+at index 1 and print the updated array.
+
+Task 44
+Create an array colors = ["red", "blue", "green"]. Use splice() to replace "blue" with
+"yellow" at index 1 and print the updated array.
+
+
+================================================================================
+TOPIC 8: join() — Convert Array to String
+================================================================================
+
+Task 45
+Create an array words = ["I", "love", "JavaScript"]. Use join() with a comma (,)
+and print the result.
+
+Task 46
+Create an array days = ["Mon", "Tue", "Wed"]. Use join() with a hyphen (-) and print
+the result.
+
+Task 47
+Create an array sentence = ["Hello", "students"]. Use join() with a space to make a
+sentence and print the result.
+(Example: "Hello students")
+
+
+================================================================================
+TOPIC 9: reverse() — Reverse an Array
+================================================================================
+
+Task 48
+Create an array nums = [1, 2, 3, 4, 5]. Use reverse() and print the reversed array.
+
+Task 49
+Create an array letters = ["a", "b", "c", "d"]. Use reverse() and print both the
+original array and the reversed array.
+
+
+================================================================================
+TOPIC 10: MIXED PRACTICE — Combine Array Methods
+================================================================================
+
+Task 50
+Create an array nums = [10, 20, 30, 40, 50]. Write one program that uses push(), pop(),
+slice(), splice(), join(), reverse(), forEach(), and reduce() together.
+Print the result after each step using console.log().
+
+
+================================================================================
+                              TOTAL TASKS: 50
+================================================================================
