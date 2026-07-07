@@ -1,0 +1,187 @@
+================================================================================
+                    JAVASCRIPT PRACTICE TASKS — CODING QUESTIONS
+                         DAY 5: OBJECTS & STRINGS
+================================================================================
+
+INSTRUCTIONS
+------------
+
+Assignment for All Students (Mandatory)
+---------------------------------------
+1. Prepare clear and neat handwritten notes.
+2. No excuses — whether you attended the first class or not, everyone must
+   complete the notes.
+3. Cover all topics discussed in class.
+4. Be ready for questions. Any topic may be asked to any student in the next class.
+5. Complete the assignment before the next class.
+6. Bring your handwritten notes and programs for checking.
+7. If anything is missing from your notes, complete Day 1, Day 2, Day 3, and Day 4 topics in
+   your notes.
+
+Note: Incomplete work or failure to answer questions will be considered
+non-compliance with class requirements.
+
+
+================================================================================
+TOPIC 1: OBJECTS — Create, Update & Access Properties
+================================================================================
+
+Task 01
+Create an object student with properties: name = "Rohan", age = 20, course = "MERN".
+Print the object using console.log().
+
+Task 02
+Using student = { name: "Rohan", age: 20, course: "MERN" }, print all properties
+(name, age, course) using console.log().
+
+Task 03
+Using student = { name: "Rohan", age: 20, course: "MERN" }, add a new property
+city = "Delhi" and print the updated object.
+
+Task 04
+Using student = { name: "Rohan", age: 20, course: "MERN" }, update age to 21 and print
+the updated object.
+
+Task 05
+Using person = { name: "Rahul", age: 18, isStudent: true }, delete the property
+isStudent and print the updated object.
+
+Task 06
+Using car = { brand: "Toyota", model: "Corolla", year: 2020 }, access and print all
+properties using dot notation.
+(Hint: car.brand, car.model, car.year)
+
+Task 07
+Using person = { name: "Sneha", age: 22, city: "Mumbai" }, access and print the name
+using bracket notation.
+(Hint: person["name"])
+
+Task 08
+Using person = { name: "Rohan", age: 20, city: "Delhi" }, loop through the object
+using for...in and print each key and value.
+(Example: name : Rohan)
+
+Task 09
+Using person = { name: "Rahul", age: 19, city: "Pune" }, check whether the object
+contains the property "email" using the in operator. Print true or false.
+
+Task 10
+Create an object mobile with properties: brand = "Samsung", model = "Galaxy", price = 25000.
+Display all details using console.log().
+
+
+================================================================================
+TOPIC 2: NESTED OBJECTS & ARRAY OF OBJECTS
+================================================================================
+
+Task 11
+Create a student object with a nested address object:
+{ name: "Rohan", age: 20, address: { city: "Delhi", pincode: 110001 } }
+Print the full object.
+
+Task 12
+Using student = { name: "Rohan", address: { city: "Delhi", pincode: 110001 } },
+print the city from the nested address object.
+
+Task 13
+Using student = { name: "Rohan", address: { city: "Delhi", pincode: 110001 } },
+update pincode to 110002 and print the updated object.
+
+Task 14
+Create an employee object:
+{ name: "Sneha", age: 25, company: { name: "TechCorp", location: "Bangalore" } }
+Print the company name and location.
+
+Task 15
+Create an array of three student objects:
+[
+  { name: "Rohan", marks: 80 },
+  { name: "Rahul", marks: 75 },
+  { name: "Sneha", marks: 90 }
+]
+Print the array.
+
+Task 16
+Using students = [
+  { name: "Rohan", marks: 80 },
+  { name: "Rahul", marks: 75 },
+  { name: "Sneha", marks: 90 }
+], print the name of the first student.
+
+Task 17
+Using the same students array, print all student names using forEach().
+
+Task 18
+Using students = [{ name: "Rohan" }, { name: "Rahul" }], use push() to add
+{ name: "Karan", marks: 70 } and print the updated array.
+
+Task 19
+Using students = [{ name: "Rohan" }, { name: "Rahul" }, { name: "Sneha" }],
+use pop() to remove the last student and print the updated array.
+
+Task 20
+Using students = [
+  { name: "Rohan", marks: 80 },
+  { name: "Rahul", marks: 75 },
+  { name: "Sneha", marks: 90 }
+], calculate and print the total marks of all students using forEach().
+
+
+================================================================================
+TOPIC 3: STRING — length, toUpperCase, toLowerCase
+================================================================================
+
+Task 21
+let text = "Hello, World!". Use length to find the number of characters and print the result.
+
+Task 22
+let text = "hello, javascript!". Use toUpperCase() and print the result.
+
+Task 23
+let text = "HELLO, JAVASCRIPT!". Use toLowerCase() and print the result.
+
+
+================================================================================
+TOPIC 4: STRING — match, slice, replace
+================================================================================
+
+Task 24
+let text = "Hello, JavaScript!". Use match() to find "JavaScript" and print the result.
+
+Task 25
+let text = "Hello, World!". Use slice(7, 12) to extract a part of the string and print the result.
+(Hint: Output is "World")
+
+Task 26
+let text = "Hello, World!". Use replace() to replace "World" with "JavaScript" and print the result.
+
+
+================================================================================
+TOPIC 5: STRING — split, trim, includes
+================================================================================
+
+Task 27
+let text = "apple,banana,mango". Use split(",") to convert the string into an array and print the result.
+
+Task 28
+let text = "   Hello, Students!   ". Use trim() to remove extra spaces and print the result.
+
+Task 29
+let text = "Learning JavaScript is fun". Use includes() to check whether the word "JavaScript"
+exists in the string. Print true or false.
+
+
+================================================================================
+TOPIC 6: MIXED PRACTICE — Objects & Strings Together
+================================================================================
+
+Task 30
+let name = "Rohan" and age = 20. Write one program that uses length, toUpperCase(), toLowerCase(),
+match(), slice(), replace(), split(), trim(), includes(), and template strings together.
+Print the result after each step using console.log().
+(Hint for template string: `Hello, ${name}!`)
+
+
+================================================================================
+                              TOTAL TASKS: 30
+================================================================================
