@@ -187,3 +187,13 @@ FILES IN THIS FOLDER
 ================================================================================
                               TOTAL TASKS: 20
 ================================================================================
+
+NOTE FOR NEXT CLASS
+-------------------
+Tomorrow we will use this command in PowerShell:
+
+  Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+IMPORTANT: Do NOT run this command today.
+Wait for the next class. We will run it together in class.
+================================================================================
