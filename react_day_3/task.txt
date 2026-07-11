@@ -188,7 +188,7 @@ FILES IN THIS FOLDER
                               TOTAL TASKS: 20
 ================================================================================
 
-NOTE FOR NEXT CLASS -> 
+NOTE FOR NEXT CLASS   -> 
 -------------------
 Tomorrow we will use this command in PowerShell:
 
