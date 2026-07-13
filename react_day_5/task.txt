@@ -21,12 +21,7 @@ Install the following packages before starting:
 npm install react-hook-form
 npm install yup
 npm install @hookform/resolvers
-npm install bootstrap 
-
- 
-
-https://www.npmjs.com/package/dynamic-react-forms
-Developed by Amit Chauhan
+npm install bootstrap  
 
 ================================================================================
 STRICT WARNING
@@ -479,6 +474,10 @@ const oneOfEnum = yup
   .string()
   .oneOf(["apple", "banana", "cherry"], "Invalid value");
  
+
+https://www.npmjs.com/package/dynamic-react-forms
+
+Developed by Amit Chauhan
 ================================================================================
                              TOTAL TASKS : 20
 ================================================================================
