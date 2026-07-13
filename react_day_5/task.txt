@@ -1,0 +1,484 @@
+================================================================================
+                    REACT PRACTICE TASKS — CODING QUESTIONS
+                     DAY 5: REACT FORMS & VALIDATION
+================================================================================
+
+INSTRUCTIONS
+------------
+
+Assignment for All Students (Mandatory)
+---------------------------------------
+1. Prepare clear and neat handwritten notes.
+2. Write every program yourself. Copy-paste is not allowed.
+3. Complete all tasks before the next class.
+4. Bring your handwritten notes and programs for checking.
+5. Be ready for viva and coding questions in the next class.
+
+Required Packages
+-----------------
+Install the following packages before starting:
+
+npm install react-hook-form
+npm install yup
+npm install @hookform/resolvers
+npm install bootstrap 
+
+ 
+
+https://www.npmjs.com/package/dynamic-react-forms
+Developed by Amit Chauhan
+
+================================================================================
+STRICT WARNING
+================================================================================
+
+• No excuses will be accepted.
+• If you are getting errors, solve them yourself before coming to class.
+• Getting your work done by a friend, volunteer, or anyone else is not allowed.
+• Excuses like:
+    - "I was getting errors."
+    - "I did not understand."
+    - "I did not have time."
+  will not be accepted.
+• Incomplete or copied work may be rejected.
+ 
+
+================================================================================
+TOPIC 1 — BASIC FORMS
+================================================================================
+
+Task 01 — Student Registration Form
+
+Fields
+------
+• Full Name
+• Email
+• Mobile Number
+• Gender
+• Date of Birth
+• Password
+• Confirm Password
+
+Validation
+----------
+• All fields required
+• Valid Email
+• Mobile must contain exactly 10 digits
+• Password minimum 8 characters 
+
+--------------------------------------------------------------------------------
+
+Task 02 — Login Form
+
+Fields
+------
+• Email
+• Password
+
+Validation
+----------
+• Email required
+• Valid Email
+• Password minimum 6 characters
+
+--------------------------------------------------------------------------------
+
+Task 03 — Contact Form
+
+Fields
+------
+• Name
+• Email
+• Subject
+• Message
+
+Validation
+----------
+• All fields required
+• Message minimum 20 characters
+
+--------------------------------------------------------------------------------
+
+Task 04 — Newsletter Form
+
+Fields
+------
+• Name
+• Email
+
+Validation
+----------
+• Both fields required
+• Valid Email
+
+================================================================================
+TOPIC 2 — EMPLOYEE & USER FORMS
+================================================================================
+
+Task 05 — Employee Registration
+
+Fields
+------
+• Employee ID
+• Name
+• Email
+• Department
+• Salary
+• Joining Date
+
+Validation
+----------
+• All fields required
+• Salary must be positive
+
+--------------------------------------------------------------------------------
+
+Task 06 — User Profile Form
+
+Fields
+------
+• First Name
+• Last Name
+• Username
+• Phone
+• City
+
+Validation
+----------
+• All fields required
+• Username minimum 5 characters
+• Phone must contain 10 digits
+
+--------------------------------------------------------------------------------
+
+Task 07 — Change Password Form
+
+Fields
+------
+• Current Password
+• New Password
+• Confirm Password
+
+Validation
+----------
+• All fields required
+• New Password minimum 8 characters 
+
+--------------------------------------------------------------------------------
+
+Task 08 — Feedback Form
+
+Fields
+------
+• Name
+• Email
+• Rating
+• Feedback
+
+Validation
+----------
+• All fields required
+• Rating between 1 and 5
+
+================================================================================
+TOPIC 3 — E-COMMERCE FORMS
+================================================================================
+
+Task 09 — Product Form
+
+Fields
+------
+• Product Name
+• Category
+• Price
+• Stock
+• Description
+
+Validation
+----------
+• All fields required 
+--------------------------------------------------------------------------------
+
+Task 10 — Customer Registration
+
+Fields
+------
+• Name
+• Email
+• Phone
+• Address
+• City
+• State
+• Pincode
+
+Validation
+----------
+• All fields required
+• Valid Email
+• Phone must contain 10 digits
+• Pincode must contain 6 digits
+
+--------------------------------------------------------------------------------
+
+Task 11 — Shipping Address Form
+
+Fields
+------
+• Full Name
+• Phone
+• Address
+• Landmark
+• City
+• State
+• Pincode
+
+Validation
+----------
+• Landmark optional
+• All remaining fields required
+
+--------------------------------------------------------------------------------
+
+Task 12 — Payment Form
+
+Fields
+------
+• Card Holder Name
+• Card Number
+• Expiry Date
+• CVV
+
+Validation
+----------
+• All fields required
+• Card Number must contain 16 digits
+• CVV must contain 3 digits
+
+================================================================================
+TOPIC 4 — EDUCATION FORMS
+================================================================================
+
+Task 13 — College Admission Form
+
+Fields
+------
+• Student Name
+• Father's Name
+• Email
+• Phone
+• Course
+• Address
+
+Validation
+----------
+• All fields required
+
+--------------------------------------------------------------------------------
+
+Task 14 — Teacher Registration
+
+Fields
+------
+• Name
+• Qualification
+• Experience
+• Email
+• Phone
+
+Validation
+----------
+• All fields required
+• Experience must be numeric
+
+--------------------------------------------------------------------------------
+
+Task 15 — Course Registration Form
+
+Fields
+------
+• Student Name
+• Course Name
+• Batch
+• Start Date
+
+Validation
+----------
+• All fields required
+
+--------------------------------------------------------------------------------
+
+Task 16 — Examination Form
+
+Fields
+------
+• Roll Number
+• Student Name
+• Course
+• Semester
+
+Validation
+----------
+• All fields required
+
+================================================================================
+TOPIC 5 — ADVANCED FORMS
+================================================================================
+
+Task 17 — Job Application Form
+
+Fields
+------
+• Full Name
+• Email
+• Phone
+• Experience
+• Skills
+• Expected Salary
+
+Validation
+----------
+• All fields required
+• Salary must be positive
+
+--------------------------------------------------------------------------------
+
+Task 18 — Event Registration Form
+
+Fields
+------
+• Name
+• Email
+• Phone
+• Event Name
+• Number of Tickets
+
+Validation
+----------
+• All fields required
+• Minimum 1 ticket
+
+--------------------------------------------------------------------------------
+
+Task 19 — Hospital Appointment Form
+
+Fields
+------
+• Patient Name
+• Age
+• Gender
+• Doctor Name
+• Appointment Date
+• Mobile Number
+
+Validation
+----------
+• All fields required
+• Age between 1 and 120
+• Mobile must contain 10 digits
+
+--------------------------------------------------------------------------------
+
+Task 20 — Company Registration Form
+
+Fields
+------
+• Company Name
+• Owner Name
+• Email
+• Phone
+• GST Number
+• Website
+
+Validation
+----------
+• All fields required
+• Valid Email
+• Valid Website URL
+• Phone must contain 10 digits 
+
+================================================================================
+COMMON YUP VALIDATION RULES Which will help you in above task.
+================================================================================
+
+// Required Field
+const isRequired = yup.string().required("This field is required");
+
+// Minimum Length
+const minLength = yup.string().min(5, "Must be at least 5 characters");
+
+// Maximum Length
+const maxLength = yup.string().max(10, "Must be 10 characters or fewer");
+
+// Email Validation
+const isEmail = yup.string().email("Must be a valid email");
+
+// Date Validation
+const isDate = yup.date().typeError("Must be a valid date");
+
+// Number Validation
+const isNumber = yup.number().typeError("Must be a number");
+
+// Positive Number
+const isPositive = yup.number().positive("Must be a positive number");
+
+// Integer Validation
+const isInteger = yup.number().integer("Must be an integer");
+
+// URL Validation
+const isURL = yup.string().url("Must be a valid URL");
+
+// Regex Validation
+const matchesPattern = yup
+  .string()
+  .matches(/^[a-zA-Z]+$/, "Only letters are allowed");
+
+// Less Than
+const lessThan = yup
+  .number()
+  .lessThan(100, "Must be less than 100");
+
+// Greater Than
+const moreThan = yup
+  .number()
+  .moreThan(10, "Must be greater than 10");
+
+// Minimum Date
+const minDate = yup
+  .date()
+  .min(new Date(2023, 0, 1), "Date cannot be before 2023");
+
+// Maximum Date
+const maxDate = yup
+  .date()
+  .max(new Date(2023, 11, 31), "Date cannot be after 2023");
+
+// Defined Field
+const isDefined = yup
+  .mixed()
+  .defined("Field must be defined");
+
+// Custom Validation
+const customTest = yup.string().test(
+  "is-even",
+  "Value must be even",
+  (value) => value && parseInt(value) % 2 === 0
+);
+
+// Exact Length
+const exactLength = yup
+  .string()
+  .length(5, "Must be exactly 5 characters");
+
+// Not One Of
+const notOneOf = yup
+  .string()
+  .notOneOf(["admin", "superuser"], "Invalid username");
+
+// One Of
+const oneOfEnum = yup
+  .string()
+  .oneOf(["apple", "banana", "cherry"], "Invalid value");
+ 
+================================================================================
+                             TOTAL TASKS : 20
+================================================================================
