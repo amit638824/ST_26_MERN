@@ -1,0 +1,175 @@
+================================================================================
+                    REACT PRACTICE TASKS — CODING QUESTIONS
+                     DAY 6: REACT ROUTER & UI PROJECT
+================================================================================
+
+INSTRUCTIONS
+------------ 
+================================================================================
+TASK 01: BASIC REACT ROUTER PRACTICE
+================================================================================
+
+Instructions:
+-------------
+1. Create a new React project OR a separate folder in the same project.
+2. Install react-router-dom.
+3. Create components inside the components folder.
+4. Setup BrowserRouter, Routes, and Route in App.jsx.
+5. Use Link / NavLink for navigation.
+6. Show different page content for each route.
+
+
+
+Required Components (inside components folder):
+-----------------------------------------------
+1. Navbar.jsx
+2. Home.jsx
+3. About.jsx
+4. Contact.jsx
+5. Services.jsx
+6. NotFound.jsx
+
+
+
+Routes to Create:
+-----------------
+| Path        | Component   |
+|-------------|-------------|
+| /           | Home        |
+| /about      | About       |
+| /contact    | Contact     |
+| /services   | Services    |
+| *           | NotFound    |
+
+
+
+What each page should show:
+---------------------------
+Home:
+- Heading: Welcome to Home Page
+- Short paragraph about the website
+
+About:
+- Heading: About Us
+- Short company / student intro text
+
+Contact:
+- Heading: Contact Us
+- Simple contact form (Name, Email, Message, Submit button)
+- On submit: console.log(form data)
+
+Services:
+- Heading: Our Services
+- Show 3-4 service cards (example: Web Design, React Development, UI/UX, Support)
+
+NotFound:
+- Heading: 404 - Page Not Found
+- Button/Link to go back to Home
+
+
+
+Suggested Folder Structure:
+---------------------------
+src/
+  components/
+    Navbar.jsx
+    Home.jsx
+    About.jsx
+    Contact.jsx
+    Services.jsx
+    NotFound.jsx
+  App.jsx
+  main.jsx
+
+
+
+Example Setup (App.jsx):
+------------------------
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Services from "./components/Services";
+import NotFound from "./components/NotFound";
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;
+
+ 
+================================================================================
+TASK 02: FEANE RESTAURANT WEBSITE (UI CLONE)
+================================================================================
+
+Reference Website:
+https://themewagon.github.io/feane/
+
+Instructions:
+-------------
+1. Create a new React project for this task.
+2. Design this website in React as closely as possible.
+3. Break the website into separate components.
+4. Use React Router for page navigation (Home, Menu, About, Book Table).
+5. Use Bootstrap/HTML for layout and styling.
+6. Keep images, sections, and buttons similar to the original design.
+
+
+Suggested Folder Structure:
+---------------------------
+src/
+  components/
+    Navbar.jsx
+    Footer.jsx
+    Hero.jsx
+    Offer.jsx
+    MenuSection.jsx
+    AboutSection.jsx
+    BookTable.jsx
+    Testimonials.jsx
+  pages/
+    Home.jsx
+    Menu.jsx
+    About.jsx
+    BookTablePage.jsx
+  App.jsx
+  main.jsx
+
+
+Pages to Create:
+----------------
+1. Home
+   - Navbar
+   - Hero / Banner slider section
+   - Offers (Tasty Thursdays, Pizza Days)
+   - Our Menu section
+   - About section
+   - Book A Table section
+   - Customer reviews / Testimonials
+   - Footer
+
+2. Menu
+   - Full menu items   
+
+3. About
+   - About Feane content and image
+
+4. Book Table
+   - Booking form (Name, Phone, Email, Persons, Date)
+ 
+================================================================================
+                            TOTAL TASKS: 02
+================================================================================
