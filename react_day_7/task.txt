@@ -1,0 +1,188 @@
+================================================================================
+                    REACT PRACTICE TASKS — DAY 7
+                     REACT ROUTER DOM (EASY)
+================================================================================
+
+Packages (har project mein):
+----------------------------
+npm create vite@latest project-name -- --template react
+cd project-name
+npm install
+npm install react-router-dom bootstrap
+
+Create 5 separate React projects.
+Each project has different components and folder structure.
+
+
+================================================================================
+TASK 01 — College Website
+================================================================================
+
+Project name: college-app
+
+Folder Structure:
+-----------------
+src/
+├── App.jsx
+└── components/
+    ├── Navbar.jsx
+    ├── Home.jsx
+    ├── Courses.jsx
+    ├── Faculty.jsx
+    ├── Admissions.jsx
+    ├── Gallery.jsx
+    └── Footer.jsx
+
+Routes:
+-------
+/            → Home
+/courses     → Courses
+/faculty     → Faculty
+/admissions  → Admissions
+/gallery     → Gallery
+
+
+--------------------------------------------------------------------------------
+TASK 02 — Shopping Website
+================================================================================
+
+Project name: shop-app
+
+Folder Structure:
+-----------------
+src/
+├── App.jsx
+└── components/
+    ├── Header.jsx
+    ├── Home.jsx
+    ├── Products.jsx
+    ├── Categories.jsx
+    ├── Cart.jsx
+    ├── Wishlist.jsx
+    ├── Checkout.jsx
+    └── Footer.jsx
+
+Routes:
+-------
+/             → Home
+/products     → Products
+/categories   → Categories
+/cart         → Cart
+/wishlist     → Wishlist
+/checkout     → Checkout
+
+
+--------------------------------------------------------------------------------
+TASK 03 — Hospital Website
+================================================================================
+
+Project name: hospital-app
+
+Folder Structure:
+-----------------
+src/
+├── App.jsx
+└── components/
+    ├── Menu.jsx
+    ├── Home.jsx
+    ├── Doctors.jsx
+    ├── Departments.jsx
+    ├── Appointments.jsx
+    ├── Patients.jsx
+    ├── Emergency.jsx
+    └── Contact.jsx
+
+Routes:
+-------
+/               → Home
+/doctors        → Doctors
+/departments    → Departments
+/appointments   → Appointments
+/patients       → Patients
+/emergency      → Emergency
+/contact        → Contact
+
+
+--------------------------------------------------------------------------------
+TASK 04 — Travel Website
+================================================================================
+
+Project name: travel-app
+
+Folder Structure:
+-----------------
+src/
+├── App.jsx
+└── components/
+    ├── Navbar.jsx
+    ├── Home.jsx
+    ├── Packages.jsx
+    ├── Destinations.jsx
+    ├── Hotels.jsx
+    ├── Flights.jsx
+    ├── Booking.jsx
+    ├── Reviews.jsx
+    └── NotFound.jsx
+
+Routes:
+-------
+/                → Home
+/packages        → Packages
+/destinations    → Destinations
+/hotels          → Hotels
+/flights         → Flights
+/booking         → Booking
+/reviews         → Reviews
+*                → NotFound
+
+
+--------------------------------------------------------------------------------
+TASK 05 — Job Portal
+================================================================================
+
+Project name: job-portal
+
+Folder Structure:
+-----------------
+src/
+├── App.jsx
+└── components/
+    ├── Sidebar.jsx
+    ├── Home.jsx
+    ├── Jobs.jsx
+    ├── Companies.jsx
+    ├── Apply.jsx
+    ├── Profile.jsx
+    ├── Dashboard.jsx
+    ├── Login.jsx
+    ├── Register.jsx
+    └── NotFound.jsx
+
+Routes:
+-------
+/             → Home
+/jobs         → Jobs
+/companies    → Companies
+/apply        → Apply
+/profile      → Profile
+/dashboard    → Dashboard
+/login        → Login
+/register     → Register
+*             → NotFound
+
+
+================================================================================
+COMMON RULES
+================================================================================
+
+- 5 alag projects banao
+- Har project mein diya hua folder structure follow karo
+- Har component alag file mein hoga
+- App.jsx mein sab components import karke Routes setup karo
+- Navbar / Menu / Header / Sidebar mein Link use karo
+- Bootstrap/html css  use karo
+
+
+================================================================================
+                            TOTAL: 05 PROJECTS
+================================================================================
