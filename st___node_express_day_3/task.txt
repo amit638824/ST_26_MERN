@@ -97,9 +97,9 @@ products-api/
 Fields:
 -------
 name     (String)
-price    (Number)
+price    (String)
 category (String)
-stock    (Number)
+stock    (String)
 
 Methods:
 --------
@@ -127,7 +127,7 @@ Fields:
 -------
 name       (String)
 department (String)
-salary     (Number)
+salary     (String)
 city       (String)
 
 Methods:
@@ -156,8 +156,8 @@ Fields:
 -------
 title     (String)
 author    (String)
-price     (Number)
-pages     (Number)
+price     (String)
+pages     (String)
 
 Methods:
 --------
@@ -213,7 +213,7 @@ orders-api/
 Fields:
 -------
 item     (String)
-amount   (Number)
+amount   (String)
 status   (String)
 customer (String)
 
@@ -242,9 +242,9 @@ movies-api/
 Fields:
 -------
 name     (String)
-year     (Number)
+year     (String)
 language (String)
-rating   (Number)
+rating   (String)
 
 Methods:
 --------
@@ -272,7 +272,7 @@ Fields:
 -------
 brand  (String)
 model  (String)
-price  (Number)
+price  (String)
 color  (String)
 
 Methods:
@@ -301,8 +301,8 @@ Fields:
 -------
 name     (String)
 city     (String)
-price    (Number)
-rooms    (Number)
+price    (String)
+rooms    (String)
 
 Methods:
 --------
