@@ -1,0 +1,57 @@
+================================================================================
+                    PROJECT ST-26 — GITHUB REPOSITORY
+================================================================================
+
+Repository URL:
+https://github.com/amit638824/Project_ST_26
+
+
+FOLDER STRUCTURE:
+-----------------
+
+Project_ST_26/
+│
+├── ui/                              → React Frontend (Vite + React Router + Bootstrap)
+│   ├── public/
+│   │   └── vite.svg
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Aboutus.jsx
+│   │   │   ├── ArticleSection.jsx
+│   │   │   ├── CategorySection.jsx
+│   │   │   ├── CertificateSection.jsx
+│   │   │   ├── Contactus.jsx
+│   │   │   ├── CounterSection.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   ├── HeroSection.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── Login.jsx
+│   │   │   ├── Navbar.jsx
+│   │   │   ├── PartnerSection.jsx
+│   │   │   ├── Pricing.jsx
+│   │   │   ├── Register.jsx
+│   │   │   ├── Services.jsx
+│   │   │   ├── TestimonialSection.jsx
+│   │   │   ├── TrendingSection.jsx
+│   │   │   └── TrustedSection.jsx
+│   │   ├── App.jsx                  → Main routing (pages connect)
+│   │   ├── App.css
+│   │   ├── main.jsx
+│   │   └── index.css
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.js
+│   └── eslint.config.js
+│
+└── api/                             → Backend APIs (Node.js + Express + MongoDB)
+     
+
+
+UI CODE DEKHNE KE LIYE:
+https://github.com/amit638824/Project_ST_26/tree/main/ui
+ 
+
+
+NOTE:
+-----
+Project ka ER Diagram banana hai aur class mein lana hai.
